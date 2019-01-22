@@ -10,3 +10,20 @@ body {
   background-color: #E0EBE6;
   font-family: 'Raleway', sans-serif;
 }
+
+#main {
+  background-color: #FFFFFF;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+}
