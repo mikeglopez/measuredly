@@ -1,0 +1,26 @@
+{
+  "name": "measuredly",
+  "version": "1.0.0",
+  "description": "Convert All the Things!",
+  "keywords": [],
+  "author": "Mike Lopez <mikeglopez.91@gmail.com>",
+  "contributors": ["Jasmine Lopez <lopez.jasmine094@gmail.com>"],
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.2.1",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeglopez/measuredly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeglopez/measuredly/issues"
+  },
+  "homepage": "https://github.com/mikeglopez/measuredly#readme"
+}
