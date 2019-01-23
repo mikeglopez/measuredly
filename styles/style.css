@@ -4,11 +4,13 @@
   font-weight: bold;
   font-family: 'Pacifico', cursive;
   color: #374941;
+  text-shadow: 3px 3px 10px #ABBAB4;
 }
 
 body {
   background-color: #E0EBE6;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 
 #main {
@@ -20,10 +22,71 @@ body {
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px #ABBAB4;
+}
+
+input {
+  width: 175px;
+  margin-right: 25px;
+  height: 25px;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+#output:disabled {
+  background: #fffae5;
+}
+
+/* Create a custom select menu for dropdowns https://www.w3schools.com/howto/howto_custom_select.asp */
+
+#inputDropDown {
+  width: 164px;
+  margin-left: 25px;
+  height: 33px;
+  background-color: #FFFFFF;
+}
+
+#outputDropDown {
+  width: 164px;
+  margin-left: 25px;
+  height: 33px;
+  background-color: #FFFFFF;
 }
 
 button {
   margin-left: 30%;
   margin-right: 30%;
   width: 40%;
+  background-color: #E5645F;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
 }
+
+footer {
+  background-color: #DEBABA;
+	color: #FFFFFF;
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+  padding: 20px 0px;
+  margin: 40px -25px -25px -25px;
+  border-radius: 4px 4px 8px 8px;
+	}
+
+  footer a:link {
+    color: #FFFFFF;
+		font-weight: bold;
+		padding-left: 5px;
+		padding-right: 5px;
+  }
+  footer a:visited {
+    color: #FFFFFF;
+  }
+  footer a:hover {
+    color: #F2F2F2;
+  }

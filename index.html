@@ -13,16 +13,20 @@
   <div id="main">
     <form id="conversion">
 
-      Convert From: <input type="text" name="input">
-      <select id="inputs">
+      <b>Convert From:</b>
+      <br>
+      <input type="text" name="input">
+      <select id="inputDropDown">
         <option value="teaspoons">Teaspoons (tsp)</option>
         <option value="tablespoons">Tablespoons (Tbsp)</option>
         <option value="cups">Cups (C)</option>
       </select>
       <br>
       <br>
-      Convert To: <input type="text" name="ouput">
-      <select id="ouputs">
+      <b>Convert To:</b>
+      <br>
+      <input type="text" name="ouput" id="output" disabled="disabled">
+      <select id="outputDropDown">
         <option value="cups">Cups (C)</option>
         <option value="tablespoons">Tablespoons (Tbsp)</option>
         <option value="teaspoons">Teaspoons (tsp)</option>
@@ -33,6 +37,12 @@
       <button type="button" id="convert">Convert!</button>
 
     </form>
+
+    <footer>
+      Copyright &copy; 2019 Measuredly
+        <br>
+        <a href="mailto:mikeglopez.91@gmail.com">mikeglopez.91@gmail.com</a>&&<a href="mailto:lopez.jasmine094@gmail.com">lopez.jasmine094@gmail.com</a>
+    </footer>
   </div>
   <script src="scripts/index.js"></script>
 </body>
