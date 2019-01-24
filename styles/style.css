@@ -39,20 +39,11 @@ input {
   background: #fffae5;
 }
 
-/* Create a custom select menu for dropdowns https://www.w3schools.com/howto/howto_custom_select.asp */
-
-#inputDropDown {
+.dropdown {
   width: 164px;
   margin-left: 25px;
   height: 33px;
-  background-color: #FFFFFF;
-}
-
-#outputDropDown {
-  width: 164px;
-  margin-left: 25px;
-  height: 33px;
-  background-color: #FFFFFF;
+  background-color: #FBFCFC;
 }
 
 button {
