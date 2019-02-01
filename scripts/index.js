@@ -8,19 +8,19 @@ var convert = function() {
     if ($to === 'cups') {
       $('#output').val(tspToCup($input));
     }
-    if ($to === 'tablespoons') {
+    else if ($to === 'tablespoons') {
       $('#output').val(tspToTbsp($input));
     } else {
-      $('#output').val($input);                        
+      $('#output').val($input);
     }
   }
-  
+
   // From === Tablespoons
-  if ($from === 'tablespoons') {
+  else if ($from === 'tablespoons') {
     if ($to === 'cups') {
       $('#output').val(tbspToCup($input));
     }
-    if ($to === 'tablespoons') {
+    else if ($to === 'tablespoons') {
       $('#output').val(tbspToTsp($input));
     } else {
       $('#output').val($input);
@@ -28,11 +28,11 @@ var convert = function() {
   }
 
   // From === Cups
-  if ($from === 'cups') {
+  else if ($from === 'cups') {
     if ($to === 'tablespoons') {
       $('#output').val(cupToTbsp($input));
     }
-    if ($to === 'teaspoons') {
+    else if ($to === 'teaspoons') {
       $('#output').val(cupToTsp($input));
     } else {
       $('#output').val($input);
@@ -61,5 +61,5 @@ var cupToTbsp = function(cup) {
 }
 
 var cupToTsp = function(cup) {
-  return (cup * 48).toFixed(2);    
+  return (cup * 48).toFixed(2);
 }
