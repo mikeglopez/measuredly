@@ -45,7 +45,7 @@ var tspToCup = function(tsp) {
 }
 
 var tspToTbsp = function(tsp) {
-  return (tsp * 3).toFixed(2);
+  return (tsp * .333333).toFixed(2);
 }
 
 var tbspToCup = function(tbsp) {
