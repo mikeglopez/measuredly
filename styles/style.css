@@ -1,3 +1,10 @@
+html,
+body {
+  background-color: #DEEDE6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
 #title {
   text-align: center;
   font-size: 65px;
@@ -5,12 +12,6 @@
   font-family: 'Pacifico', cursive;
   color: #374941;
   text-shadow: 3px 3px 10px #ABBAB4;
-}
-
-body {
-  background-color: #DEEDE6;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
 }
 
 #main {
@@ -48,8 +49,7 @@ input {
 }
 
 button {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: 0 30%;
   width: 40%;
   background-color: #E5645F;
   color: #FFFFFF;
@@ -66,41 +66,37 @@ footer {
 	font-style: italic;
 	text-align: center;
   padding: 20px 0px;
-  margin: 40px -25px -25px -25px;
+  margin: 40px -25px -25px;
   border-radius: 4px 4px 8px 8px;
-	}
+}
 
-  footer a:link {
-    color: #FFFFFF;
-		font-weight: bold;
-		padding-left: 5px;
-		padding-right: 5px;
-  }
-  footer a:visited {
-    color: #FFFFFF;
-  }
-  footer a:hover {
-    color: #F2F2F2;
-  }
+footer a:link,
+footer a:visited {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 0 5px;
+}
 
-  @media only screen and (max-width: 375px) {
-    #main { width: auto; }
-    #input, #inputDD, #output, #outputDD
-     { display: block;
-       margin: 5px;
-       width: 275px;
-       margin-left: auto;
-       margin-right: auto;
-     }
-  }
+footer a:hover {
+  color: #F2F2F2;
+}
 
-  @media only screen and (max-width: 320px) {
-    #main { width: 288px; }
-    #input, #inputDD, #output, #outputDD
-    { display: block;
-      margin: 5px;
-      width: 220px;
-      margin-left: auto;
-      margin-right: auto;
+@media only screen and (max-width: 375px) {
+  #main { width: auto; }
+  #input, #inputDD, #output, #outputDD
+    {
+      display: block;
+      margin: 5px auto;
+      width: 275px;
     }
+}
+
+@media only screen and (max-width: 320px) {
+  #main { width: 288px; }
+  #input, #inputDD, #output, #outputDD
+  {
+    display: block;
+    margin: 5px auto;
+    width: 220px;
   }
+}
